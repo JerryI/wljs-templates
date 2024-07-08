@@ -1,0 +1,216 @@
+<|"Notebook" -> <|"FocusedCell" -> CellObj[JerryI`Notebook`CellObj`$227], 
+   "Objects" -> <|"6448649c-22de-4479-b02a-9dc483e1a1f3" -> 
+      <|"Public" -> Hold[Graphics[Annotation[
+           {{{{}, {}, Annotation[{Directive[Opacity[1], RGBColor[0.368417, 
+                  0.506779, 0.709798], AbsoluteThickness[2]], 
+                Line[{{2.040816326530612*^-8, 2.040816326530612*^-8}, 
+                  {0.00030671792055962676, 0.00030671792055962676}, 
+                  {0.0006134154329559882, 0.0006134154329559882}, 
+                  {0.0012268104577487112, 0.0012268104577487112}, 
+                  {0.002453600507334157, 0.002453600507334157}, 
+                  {0.004907180606505049, 0.004907180606505049}, 
+                  {0.009814340804846833, 0.009814340804846833}, 
+                  {0.0196286612015304, 0.0196286612015304}, 
+                  {0.040908357085458646, 0.040908357085458646}, 
+                  {0.06077788357015209, 0.06077788357015209}, 
+                  {0.08025764881887605, 0.08025764881887605}, 
+                  {0.10138846915816112, 0.10138846915816112}, 
+                  {0.12110912009821138, 0.12110912009821138}, 
+                  {0.1424808261288228, 0.1424808261288228}, 
+                  {0.16346277092346467, 0.16346277092346467}, 
+                  {0.18303454631887175, 0.18303454631887175}, 
+                  {0.20425737680483996, 0.20425737680483996}, 
+                  {0.22407003789157337, 0.22407003789157337}, 
+                  {0.24349293774233727, 0.24349293774233727}, 
+                  {0.26456689268366235, 0.26456689268366235}, 
+                  {0.2842306782257526, 0.2842306782257526}, 
+                  {0.305545518858404, 0.305545518858404}, 
+                  {0.32647059825508584, 0.32647059825508584}, 
+                  {0.34598550825253294, 0.34598550825253294}, 
+                  {0.3671514733405411, 0.3671514733405411}, 
+                  {0.3869072690293145, 0.3869072690293145}, 
+                  {0.408314119808649, 0.408314119808649}, {0.429331209352014, 
+                   0.429331209352014}, {0.44893812949614426, 
+                   0.44893812949614426}, {0.47019610473083556, 
+                   0.47019610473083556}, {0.4900439105662921, 
+                   0.4900439105662921}, {0.5095019551657791, 
+                   0.5095019551657791}, {0.5306110548558273, 
+                   0.5306110548558273}, {0.5503099851466406, 
+                   0.5503099851466406}, {0.5716599705280151, 
+                   0.5716599705280151}, {0.5926201946734201, 
+                   0.5926201946734201}, {0.6121702494195903, 
+                   0.6121702494195903}, {0.6333713592563216, 
+                   0.6333713592563216}, {0.6531622996938181, 
+                   0.6531622996938181}, {0.6725634788953451, 
+                   0.6725634788953451}, {0.6936157131874332, 
+                   0.6936157131874332}, {0.7132577780802865, 
+                   0.7132577780802865}, {0.7345508980637009, 
+                   0.7345508980637009}, {0.7544338486478805, 
+                   0.7544338486478805}, {0.7739270379960906, 
+                   0.7739270379960906}, {0.7950712824348619, 
+                   0.7950712824348619}, {0.8148053574743983, 
+                   0.8148053574743983}, {0.8361904876044959, 
+                   0.8361904876044959}, {0.857185856498624, 
+                   0.857185856498624}, {0.8767710559935172, 
+                   0.8767710559935172}, {0.8980073105789717, 
+                   0.8980073105789717}, {0.9178333957651912, 
+                   0.9178333957651912}, {0.9372697197154413, 
+                   0.9372697197154413}, {0.9583570987562524, 
+                   0.9583570987562524}, {0.9780343083978288, 
+                   0.9780343083978288}, {0.9783775220102351, 
+                   0.9783775220102351}, {0.9787207356226415, 
+                   0.9787207356226415}, {0.9794071628474543, 
+                   0.9794071628474543}, {0.9807800172970798, 
+                   0.9807800172970798}, {0.9835257261963308, 
+                   0.9835257261963308}, {0.9890171439948328, 
+                   0.9890171439948328}, {0.9893603576072392, 
+                   0.9893603576072392}, {0.9897035712196455, 
+                   0.9897035712196455}, {0.9903899984444582, 
+                   0.9903899984444582}, {0.9917628528940837, 
+                   0.9917628528940837}, {0.9945085617933347, 
+                   0.9945085617933347}, {0.9948517754057411, 
+                   0.9948517754057411}, {0.9951949890181475, 
+                   0.9951949890181475}, {0.9958814162429602, 
+                   0.9958814162429602}, {0.9972542706925858, 
+                   0.9972542706925858}, {0.9975974843049922, 
+                   0.9975974843049922}, {0.9979406979173985, 
+                   0.9979406979173985}, {0.9986271251422112, 
+                   0.9986271251422112}, {0.9989703387546176, 
+                   0.9989703387546176}, {0.999313552367024, 
+                   0.999313552367024}, {0.9996567659794304, 
+                   0.9996567659794304}, {0.9999999795918367, 
+                   0.9999999795918367}}]}, "Charting`Private`Tag#1"]}}, {}}, 
+           Association["HighlightElements" -> Association["Label" -> {
+                "XYLabel"}, "Ball" -> {"InterpolatedBall"}], 
+            "LayoutOptions" -> Association["PanelPlotLayout" -> Association[
+                ], "PlotRange" -> {{0, 1}, {0, 0.9999999795918367}}, 
+              "Frame" -> {{False, False}, {False, False}}, "AxesOrigin" -> {
+                0, 0}, "ImageSize" -> {360, 360/GoldenRatio}, 
+              "Axes" -> {True, True}, "LabelStyle" -> {}, "AspectRatio" -> 
+               GoldenRatio^(-1), "DefaultStyle" -> {Directive[Opacity[1], 
+                 RGBColor[0.368417, 0.506779, 0.709798], AbsoluteThickness[
+                  2]]}, "HighlightLabelingFunctions" -> Association[
+                "CoordinatesToolOptions" -> ({Identity[#1[[1]]], Identity[
+                    #1[[2]]]} & ), "ScalingFunctions" -> {{Identity, 
+                   Identity}, {Identity, Identity}}], "Primitives" -> {}, 
+              "GCFlag" -> False], "Meta" -> Association["DefaultHighlight" -> 
+               {"Dynamic", None}, "Index" -> {}, "Function" -> Plot, 
+              "GroupHighlight" -> False]], "DynamicHighlight"], 
+          {DisplayFunction -> Identity, Ticks -> {Automatic, Automatic}, 
+           AxesOrigin -> {0, 0}, FrameTicks -> {{Automatic, Automatic}, 
+             {Automatic, Automatic}}, GridLines -> {None, None}, 
+           DisplayFunction -> Identity, PlotRangePadding -> 
+            {{Scaled[0.02], Scaled[0.02]}, {Scaled[0.05], Scaled[0.05]}}, 
+           PlotRangeClipping -> True, ImagePadding -> All, 
+           AspectRatio -> GoldenRatio^(-1), Axes -> {True, True}, 
+           AxesLabel -> {None, None}, AxesOrigin -> {0, 0}, 
+           DisplayFunction :> Identity, Frame -> {{False, False}, 
+             {False, False}}, FrameLabel -> {{None, None}, {None, None}}, 
+           FrameTicks -> {{Automatic, Automatic}, {Automatic, Automatic}}, 
+           GridLines -> {None, None}, GridLinesStyle -> 
+            Directive[GrayLevel[0.5, 0.4]], Method -> 
+            {"DefaultBoundaryStyle" -> Automatic, 
+             "DefaultGraphicsInteraction" -> {"Version" -> 1.2, 
+               "TrackMousePosition" -> {True, False}, "Effects" -> 
+                {"Highlight" -> {"ratio" -> 2}, "HighlightPoint" -> 
+                  {"ratio" -> 2}, "Droplines" -> {"freeformCursorMode" -> 
+                    True, "placement" -> {"x" -> "All", "y" -> "None"}}}}, 
+             "DefaultMeshStyle" -> AbsolutePointSize[6], 
+             "ScalingFunctions" -> None, "CoordinatesToolOptions" -> 
+              {"DisplayFunction" -> ({(Identity[#1] & )[#1[[1]]], 
+                  (Identity[#1] & )[#1[[2]]]} & ), "CopiedValueFunction" -> 
+                ({(Identity[#1] & )[#1[[1]]], (Identity[#1] & )[
+                   #1[[2]]]} & )}}, PlotRange -> {{0, 1}, 
+             {0, 0.9999999795918367}}, PlotRangeClipping -> True, 
+           PlotRangePadding -> {{Scaled[0.02], Scaled[0.02]}, 
+             {Scaled[0.02], Scaled[0.02]}}, Ticks -> {Automatic, 
+             Automatic}}]]|>|>, "Path" -> "/users/kirill/Github/wolfram-js-fr\
+ontend-dev/wljs_packages/wljs-templates/Library/Notebooks/Nord/Nord.wln", 
+   "Symbols" -> <||>|>, "Cells" -> 
+  {<|"Data" -> ".html\n<style>\n  /*\n   * Copyright (c) 2016-present Sven \
+Greb <development@svengreb.de>\n   * This source code is licensed under the \
+MIT license found in the license file.\n  */\n  \n  :root {\n    --nord0: \
+#2e3440;\n    --nord1: #3b4252;\n    --nord2: #434c5e;\n    --nord3: \
+#4c566a;\n    --nord4: #d8dee9;\n    --nord5: #e5e9f0;\n    --nord6: \
+#eceff4;\n    --nord7: #8fbcbb;\n    --nord8: #88c0d0;\n    --nord9: \
+#81a1c1;\n    --nord10: #5e81ac;\n    --nord11: #bf616a;\n    --nord12: \
+#d08770;\n    --nord13: #ebcb8b;\n    --nord14: #a3be8c;\n    --nord15: \
+#b48ead;\n    --editor-key-meta: var(--nord3);\n    --editor-key-keyword: \
+var(--nord9);\n    --editor-key-atom: var(--nord15);\n    \
+--editor-key-literal: var(--nord15);\n    --editor-key-string: \
+var(--nord14);\n    --editor-key-escape: var(--nord13);\n    \
+--editor-key-variable: var(--nord4);\n    --editor-local-variable: \
+var(--nord4);\n    --editor-key-type: var(--nord7);\n    --editor-key-class: \
+var(--nord7);\n    --editor-special-variable: var(--nord4);\n    \
+--editor-key-property: var(--nord8);\n    --editor-key-comment: \
+var(--nord12);\n    --editor-key-invalid: var(--nord11);\n    \
+--editor-outline: var(--nord3);\n    color: white;\n  }\n\n  \
+[transparency=\"true\"] .bg-g-trans {\n    background: var(--nord1) \
+!important;\n  }\n\n  [transparency=\"false\"] .bg-g-trans {\n    background: \
+var(--nord1) !important;\n  }  \n\n  .bg-g-trans {\n    background: \
+var(--nord1) !important;\n  }\n\n  .cm-tooltip-autocomplete.cm-tooltip {\n    \
+background-color: var(--nord2) !important;\n  }\n\n  .cm-editor .cm-cursor \
+{\n    border-left-color: var(--nord5);\n  }\n\n  .cm-tooltip-autocomplete ul \
+li[aria-selected] {\n    background: var(--nord4);\n    color: white \
+!important;\n    border-radius: 4px !important;\n  }\n</style>", 
+    "Display" -> "codemirror", "Hash" -> 
+     "b8fcb892-f36e-407e-b95b-a5f98bab85cd", "Invisible" -> True, 
+    "MetaOnly" -> False, "Props" -> <|"Locked" -> False, "Hidden" -> True|>, 
+    "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
+    "Notebook" -> "cd5837e5-9088-4889-9c03-ed654a966dd3"|>, 
+   <|"Data" -> "<style>\n  /*\n   * Copyright (c) 2016-present Sven Greb \
+<development@svengreb.de>\n   * This source code is licensed under the MIT \
+license found in the license file.\n  */\n  \n  :root {\n    --nord0: \
+#2e3440;\n    --nord1: #3b4252;\n    --nord2: #434c5e;\n    --nord3: \
+#4c566a;\n    --nord4: #d8dee9;\n    --nord5: #e5e9f0;\n    --nord6: \
+#eceff4;\n    --nord7: #8fbcbb;\n    --nord8: #88c0d0;\n    --nord9: \
+#81a1c1;\n    --nord10: #5e81ac;\n    --nord11: #bf616a;\n    --nord12: \
+#d08770;\n    --nord13: #ebcb8b;\n    --nord14: #a3be8c;\n    --nord15: \
+#b48ead;\n    --editor-key-meta: var(--nord3);\n    --editor-key-keyword: \
+var(--nord9);\n    --editor-key-atom: var(--nord15);\n    \
+--editor-key-literal: var(--nord15);\n    --editor-key-string: \
+var(--nord14);\n    --editor-key-escape: var(--nord13);\n    \
+--editor-key-variable: var(--nord4);\n    --editor-local-variable: \
+var(--nord4);\n    --editor-key-type: var(--nord7);\n    --editor-key-class: \
+var(--nord7);\n    --editor-special-variable: var(--nord4);\n    \
+--editor-key-property: var(--nord8);\n    --editor-key-comment: \
+var(--nord12);\n    --editor-key-invalid: var(--nord11);\n    \
+--editor-outline: var(--nord3);\n    color: white;\n  }\n\n  \
+[transparency=\"true\"] .bg-g-trans {\n    background: var(--nord1) \
+!important;\n  }\n\n  [transparency=\"false\"] .bg-g-trans {\n    background: \
+var(--nord1) !important;\n  }  \n\n  .bg-g-trans {\n    background: \
+var(--nord1) !important;\n  }\n\n  .cm-tooltip-autocomplete.cm-tooltip {\n    \
+background-color: var(--nord2) !important;\n  }\n\n  .cm-editor .cm-cursor \
+{\n    border-left-color: var(--nord5);\n  }\n\n  .cm-tooltip-autocomplete ul \
+li[aria-selected] {\n    background: var(--nord4);\n    color: white \
+!important;\n    border-radius: 4px !important;\n  }\n</style>", 
+    "Display" -> "html", "Hash" -> "7b2d772c-bfd2-4e70-8f45-a77bc310a178", 
+    "Invisible" -> False, "MetaOnly" -> False, "Props" -> <||>, 
+    "State" -> "Idle", "Type" -> "Output", "UID" -> Null, 
+    "Notebook" -> "cd5837e5-9088-4889-9c03-ed654a966dd3"|>, 
+   <|"Data" -> ".md\n\n# An experimental Nord theme\n*Copyright (c) \
+2016-present Sven Greb*", "Display" -> "codemirror", 
+    "Hash" -> "2fe6c2f0-3d08-4b7e-a48b-58ff62b443ca", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <|"Hidden" -> True|>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cd5837e5-9088-4889-9c03-ed654a966dd3"|>, 
+   <|"Data" -> 
+     ">\n# An experimental Nord theme\n*Copyright (c) 2016-present Sven \
+Greb*", "Display" -> "markdown", "Hash" -> 
+     "e149b8ff-0649-456e-8229-de400fc8b470", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "cd5837e5-9088-4889-9c03-ed654a966dd3"|>, 
+   <|"Data" -> "Plot[x, {x, 0, 1}]", "Display" -> "codemirror", 
+    "Hash" -> "5a3d5ae5-84ad-4457-85f7-81e03b2d61c9", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Input", "UID" -> Null, "Notebook" -> 
+     "cd5837e5-9088-4889-9c03-ed654a966dd3"|>, 
+   <|"Data" -> "(*VB[*)(FrontEndRef[\"6448649c-22de-4479-b02a-9dc483e1a1f3\"]\
+)(*,*)(*\"1:eJxTTMoPSmNkYGAoZgESHvk5KRCeEJBwK8rPK3HNS3GtSE0uLUlMykkNVgEKm5mYW\
+JiZWCbrGhmlpOqamJhb6iYZGCXqWqYkm1gYpxomGqYZAwB3QBVJ\"*)(*]VB*)", 
+    "Display" -> "codemirror", "Hash" -> 
+     "772ffc83-2ddb-4725-b29d-636c24b9e05c", "Invisible" -> False, 
+    "MetaOnly" -> False, "Props" -> <||>, "State" -> "Idle", 
+    "Type" -> "Output", "UID" -> Null, "Notebook" -> 
+     "cd5837e5-9088-4889-9c03-ed654a966dd3"|>}, "serializer" -> "jsfn4"|>
