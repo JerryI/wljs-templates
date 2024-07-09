@@ -5,7 +5,8 @@ BeginPackage["Notebook`Templates`", {
     "JerryI`Notebook`AppExtensions`",
     "JerryI`WLX`",
     "JerryI`WLX`Importer`",
-    "JerryI`WLX`WebUI`" 
+    "JerryI`WLX`WebUI`",
+    "Notebook`Editor`Snippets`"
 }]
 
 
@@ -62,6 +63,18 @@ Options[listener] = {"Path"->"", "Parameters"->"", "Modals"->"", "AppEvent"->"",
 
 AppExtensions`TemplateInjection["AppTopBar"] = listener;
 
+
+SnippetsCreateItem[
+    "newFileFromTemplate", 
+
+    "Template"->ImportComponent["Ico.wlx"] , 
+    "Title"->"New notebook from template"
+];
+
+(* just fwd *)
+EventHandler[SnippetsEvents, {
+    "newFileFromTemplate" -> Function[assoc, EventFire[assoc["Controls"], "new_from_template", True] ]
+}];
 
 End[]
 EndPackage[]

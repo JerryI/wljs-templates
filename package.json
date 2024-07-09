@@ -1,6 +1,6 @@
 {
     "name": "wljs-templates",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Templates for WLJS Notebook",
     "scripts": {
       "build": "node --max-old-space-size=8192 ./node_modules/.bin/rollup --config rollup.config.mjs",
@@ -9,12 +9,13 @@
     "defaultPackage": true,
     "wljs-meta": {
       "frontend": "Frontend.wl",
-      "priority": 9999999,
+      "priority": 199999,
       "category": "Notebook Extensions",
       "menu": [
         {
           "label": "New from template",
           "event": "new_from_template",
+          "section": "file",
           "spawnWindow": false,
           "type": "button"
         }
