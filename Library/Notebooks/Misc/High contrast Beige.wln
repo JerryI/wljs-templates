@@ -3,7 +3,7 @@
 /wljs_packages/wljs-templates/Library/Notebooks/Misc/High contrast Beige.wln"\
 , "Symbols" -> <||>|>, "Cells" -> 
   {<|"Data" -> ".html\n\n<style>\n  .cframe {\n    border: 2px solid \
-#ffe2a4;\n    background: beige;\n    padding: 0.25rem;\n    margin-top: \
+#ffe2a4;\n    background: #fff9e1;\n    padding: 0.25rem;\n    margin-top: \
 0.55rem;\n    margin-bottom: 0.25rem;\n  }\n\n  .rounded-md {\n    \
 border-radius: 0;\n  }\n\n  .rounded {\n    border-radius: 0;\n  }\n\n  \
 .rounded-lg {\n    border-radius: 0;\n  }\n\n  body {\n    background: \
