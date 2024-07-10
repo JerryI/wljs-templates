@@ -41,9 +41,13 @@ With[{
                 With[{name = FileNameJoin[{Path, RandomWord[]<>".wln"}], template = Values[database][[choise["Result"] ]]},
                     CopyFile[template,  name];
 
-                    If[FileExistsQ[FileNameJoin[{template // DirectoryName, "attachments"}] ],
-                        If[!FileExistsQ[FileNameJoin[{name // DirectoryName, "attachments"}] ], CreateDirectory[ FileNameJoin[{name // DirectoryName, "attachments"}] ] ] ;
-                        Map[CopyFile[#, FileNameJoin[{template // DirectoryName, "attachments", FileNameTake[#]}] ]&, FileNames["*", FileNameJoin[{template // DirectoryName, "attachments"}] ] ];
+                    With[{dir = FileNameJoin[{template // DirectoryName, "attachments"}], targetDir =  FileNameJoin[{name // DirectoryName, "attachments"}]},
+                        If[FileExistsQ[dir],
+                            If[!FileExistsQ[targetDir ], CreateDirectory[ targetDir ] ] ;
+                            Map[Function[n, CopyFile[n, FileNameJoin[{targetDir, FileNameTake[n] }] ] ],  
+                                FileNames["*.*", dir ]
+                            ];
+                        ]
                     ];
 
                     If[OptionValue["Path"] === Path,
