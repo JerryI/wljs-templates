@@ -29,7 +29,8 @@ listener[OptionsPattern[] ] :=
 With[{
     Controls = OptionValue["Controls"],
     Modals = OptionValue["Modals"],
-    Path = If[DirectoryQ[#], #, DirectoryName[#] ] &@ OptionValue["Path"]
+    Path = If[DirectoryQ[#], #, DirectoryName[#] ] &@ OptionValue["Path"],
+    Type = OptionValue["Type"]
 },
     EventHandler[EventClone[Controls], {"new_from_template" -> Function[Null, 
         With[{
@@ -53,7 +54,7 @@ With[{
                         Module[{filename = result<>".wln"},
                             If[filename === ".wln", filename = name<>filename];
                             If[DirectoryName[filename] === "", filename = FileNameJoin[{Path, filename}] ];
-                            
+
                             With[{name = filename, template = Values[database][[choise["Result"] ]]},
                                 CopyFile[template,  name];
 
@@ -66,7 +67,11 @@ With[{
                                     ]
                                 ];
 
-                                WebUILocation[StringJoin["/", URLEncode[name] ], cli, "Target"->_];
+                                If[Type === "ExtendedApp", 
+                                    WebUILocation[StringJoin["/folder/", URLEncode[name] ], cli, "Target"->_];
+                                ,
+                                    WebUILocation[StringJoin["/", URLEncode[name] ], cli, "Target"->_];
+                                ];
                             ]
                         ];
                     ], Function[result, Echo["!!!R!!"]; Echo[result] ] ];
