@@ -33,29 +33,46 @@ With[{
 },
     EventHandler[EventClone[Controls], {"new_from_template" -> Function[Null, 
         With[{
-            p = Promise[],
+            promise = Promise[],
             cli = Global`$Client
         }, 
-            EventFire[Modals, "Select", <|"Client"->cli, "Promise"->p, "Title"->"Which template", "Options"->Keys[database]|>];
-            Then[p, Function[choise,
-                With[{name = FileNameJoin[{Path, RandomWord[]<>".wln"}], template = Values[database][[choise["Result"] ]]},
-                    CopyFile[template,  name];
+            EventFire[Modals, "Select", <|"Client"->cli, "Promise"->promise, "Title"->"Which template", "Options"->Keys[database]|>];
+            Then[promise, Function[choise,
 
-                    With[{dir = FileNameJoin[{template // DirectoryName, "attachments"}], targetDir =  FileNameJoin[{name // DirectoryName, "attachments"}]},
-                        If[FileExistsQ[dir],
-                            If[!FileExistsQ[targetDir ], CreateDirectory[ targetDir ] ] ;
-                            Map[Function[n, CopyFile[n, FileNameJoin[{targetDir, FileNameTake[n] }] ] ],  
-                                FileNames["*.*", dir ]
-                            ];
-                        ]
-                    ];
+                With[{
+                    p = Promise[]
+                },
+                    EventFire[Modals, "RequestPathToSave", <|
+                        "Promise"->p,
+                        "Title"->"Notebook & Template files",
+                        "Ext"->"wln",
+                        "Client"->cli
+                    |>];
 
-                    If[OptionValue["Path"] === Path,
-                        WebUILocation[URLEncode[name], cli];
-                    ,
-                        WebUILocation[URLEncode[name], cli, "Target"->_];
-                    ];
+                    Then[p, Function[result, 
+                        Module[{filename = result<>".wln"},
+                            If[filename === ".wln", filename = name<>filename];
+                            If[DirectoryName[filename] === "", filename = FileNameJoin[{Path, filename}] ];
+                            
+                            With[{name = filename, template = Values[database][[choise["Result"] ]]},
+                                CopyFile[template,  name];
+
+                                With[{dir = FileNameJoin[{template // DirectoryName, "attachments"}], targetDir =  FileNameJoin[{name // DirectoryName, "attachments"}]},
+                                    If[FileExistsQ[dir],
+                                        If[!FileExistsQ[targetDir ], CreateDirectory[ targetDir ] ] ;
+                                        Map[Function[n, CopyFile[n, FileNameJoin[{targetDir, FileNameTake[n] }] ] ],  
+                                            FileNames["*.*", dir ]
+                                        ];
+                                    ]
+                                ];
+
+                                WebUILocation[StringJoin["/", URLEncode[name] ], cli, "Target"->_];
+                            ]
+                        ];
+                    ], Function[result, Echo["!!!R!!"]; Echo[result] ] ];
+
                 ]
+
             ] ];
         ]        
     ]}];
