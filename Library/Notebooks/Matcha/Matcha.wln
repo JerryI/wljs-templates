@@ -116,7 +116,7 @@ src=\"attachments/0a12e130650543cf5b165a008d1604e3.gif\" style=\"width: \
     "State" -> "Idle", "Type" -> "Input", "UID" -> Null, 
     "Notebook" -> "b113ee23-9090-4cfa-a5e0-da9bd4678bbd"|>, 
    <|"Data" -> "><img \
-src=\"attachments/0a12e130650543cf5b165a008d1604e3.gif\" style=\"width: \
+src=\"/attachments/0a12e130650543cf5b165a008d1604e3.gif\" style=\"width: \
 100vw; object-fit: cover; image-rendering: pixelated; height: 300px\"/>", 
     "Display" -> "markdown", "Hash" -> 
      "5dde8167-28f0-4d3c-b1db-551176990ba5", "Invisible" -> False, 
