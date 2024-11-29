@@ -14,7 +14,7 @@ Begin["`Internal`"]
 
 database = <||>;
 
-$userLibraryPath = FileNameJoin[{Directory[], "UserTemplates"}];
+$userLibraryPath = FileNameJoin[{AppExtensions`DefaultDocumentsDir, "User templates"}];
 $libraryPath = FileNameJoin[{$InputFileName // DirectoryName, "Library"}]
 
 If[!FileExistsQ[ $userLibraryPath ], CreateDirectory[$userLibraryPath] ];
