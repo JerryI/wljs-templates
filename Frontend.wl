@@ -1,14 +1,14 @@
-BeginPackage["Notebook`Templates`", {
+BeginPackage["CoffeeLiqueur`Extensions`NotebookTemplates`", {
     "JerryI`Misc`Events`",
     "JerryI`Misc`Async`",
     "JerryI`Misc`Events`Promise`",
-    "JerryI`Notebook`AppExtensions`",
     "JerryI`WLX`",
     "JerryI`WLX`Importer`",
     "JerryI`WLX`WebUI`",
-    "Notebook`Editor`Snippets`"
+    "CoffeeLiqueur`Extensions`CommandPalette`"
 }]
 
+Needs["CoffeeLiqueur`Notebook`AppExtensions`" -> "AppExtensions`"];
 
 Begin["`Internal`"]
 
